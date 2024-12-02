@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Cabin+Condensed:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Ahom&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Styles */
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    font-size: 16px;
+    color: #FFF;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+
+h1 {
+    font-size: 6.5rem;
+    font-weight: 500;    
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.container{
+    max-width: 1600px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    object-fit:contain;
+    margin-left: 200px;
+    width: 180px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+ 
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 120px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 45px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#img-header{   
+    background-image: url("img/portada-gimnasio.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#textos-inicio {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 80px;
+    font-size: 35px;
+    margin-top: 200px;
+}
+
+
+.boton {
+    width: 210px;
+    height: 60px;
+    background-color: #faff00;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.razones h2{
+    font-size: 35px;
+    font-family:"Poppins";
+    font-weight: 700;
+    font-size: 60px;
+    
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+#cards .card{
+    padding: 15px 30px;
+    width: calc(50% - 15px);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card-img{
+    width: 100px;
+}
+
+
+.card-img img{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.card-texts p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 500px;
+}
+
+
+.title-precio {
+    background-color:#333333;
+    padding-top:10px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    border: #000000 solid 2px;
+    margin-left: 20px;
+
+}
+
+.title-precio h4 {
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.cards-costo {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top:-20px ;
+    margin-bottom: 10px;
+}
+
+.tarjeta {
+    background-color:#333333;
+    text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border: none;
+    padding: 20px;
+    
+}
+
+.iconoytexto {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.iconoytexto i {
+    display: flex;
+    align-items:center;
+    margin-right: 10px;
+
+}
+
+.iconoytexto p {
+    display: flex;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 600;
+  
+
+}
+
+.button-membresias {
+    background-color:#333333;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding-top:130px;
+    text-align: center;
+    padding-left: 170px ;
+    padding-right: 150px;
+
+}
+
+.button-membresias button {
+    background-color: #faff00;
+    padding: 12px 40px 12px 40px;
+    border-radius: 40px;
+    font-weight: 700;    
+    margin-bottom: 43px;
+    font-size: 20px;
+}
+
+.tarjetas {
+    max-width: 33%;
+    margin: 50px;
+    align-items: center;
+
+}
+
+.cards-membresias {
+    display: flex;
+    align-items: center;
+    
+}
